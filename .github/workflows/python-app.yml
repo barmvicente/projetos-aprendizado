@@ -34,3 +34,6 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: Rodar arquivo
+      run: |
+        python -m binario_para_decimal 10
